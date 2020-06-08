@@ -1,0 +1,11 @@
+[package]
+name = "poll-buf-utils"
+description = "Utilities for poll_* methods working on buffers"
+version = "0.0.0"
+authors = ["Erik Zscheile <zseri.devel@ytrizja.de>"]
+edition = "2018"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+bytes = ">= 0.0.1, < 0.6"
+futures-io = ">= 0.2, < 0.4"
